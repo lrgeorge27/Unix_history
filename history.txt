@@ -1,0 +1,285 @@
+    1  mkdir htmllesson
+    2  cd htmllesson
+    3  cd ../..
+    4  cd htmllesson
+    5  cd workspace
+    6  cd htmllesson
+    7  cd ~/workspace
+    8  touch index.html
+    9  c9 index.html
+   10  git
+   11  git intit
+   12  git init
+   13  rm .git
+   14  rm -r.git/
+   15  rm -r .git/
+   16  git init
+   17  ..
+   18  cd htmllesson/
+   19  git status
+   20  git add index.html 
+   21  git status
+   22  git commit -m "first commit"
+   23  git status
+   24  s
+   25  cd gitimmersion
+   26  cd hello
+   27  cd hello
+   28  cd Gitimmersion
+   29  cd hello
+   30  c9 hello.rb
+   31  git init
+   32  git add hello.rd
+   33  git add hello.rb
+   34  git commit -m"first commit"
+   35  git status
+   36  git add hello.rb
+   37  git status
+   38  git add hello.rb
+   39  git config core.autocrlf false
+   40  git add hello.rb
+   41  git status
+   42  git commit
+   43  git status
+   44  git add hello.rb
+   45  git status
+   46  g
+   47  cd Gitimmersion
+   48  cd hello
+   49  git st
+   50  git tag v1
+   51  git checkout v1~1
+   52  cat hello.rb
+   53  git tag v1-beta
+   54  git checkout v1
+   55  git checkout v1-beta
+   56  git tag
+   57  git hist master --all
+   58  git checkout v1
+   59  git add hello.rb
+   60  git status
+   61  git rest HEAD hello.rb
+   62  git reset HEAD hello.rb
+   63  git checkout hello.rb
+   64  git status
+   65  git add hello.rb
+   66  git commit -m "Oops, we didn't want this commit"
+   67  git add hello.rb
+   68  git commit -m "unwanted items"
+   69  git revert HEAD
+   70  git hist
+   71  cd Gitimmersion
+   72  cd hello
+   73  git hist 
+   74  git cat-file -t d408a5f
+   75  git cat-file -p d408a5f
+   76  git cat-file -p 23a03d2bffd1ce561981a315e7b666f943089441
+   77  git cat-file -p 9e65f8c0643323e01212d0b12468aa7a629472d4
+   78  git cat-file -p 1bfebada08240f01cd729a1ef624dbf753df23ca
+   79  git checkout -b greet
+   80  git status
+   81  git add lib/greeter.rb
+   82  touch lib/greeter.rb
+   83  c9 lib/greeter.rb
+   84  git add lib/greeter.rb
+   85  git commit -m "Added greeter class"
+   86  git add lib/hello.rb
+   87  git commit -m "Hello uses Greeter"
+   88  g
+   89  cd Gitimmersion
+   90  cd hello
+   91  cd lib
+   92  cd hello
+   93  cd Gitimmersion
+   94  cd hello
+   95  git hist --all
+   96  git checkout greeter
+   97  git checkout greet
+   98  git add -A
+   99  git commit -m "save before merge
+  100  git commit -m "save before merge'
+  101  git commit -m "save before merge"
+  102  git commit -m "save before merge"
+  103  git checkout greet
+  104  git merge master
+  105  git add Rakefile.rb
+  106  git merge master
+  107  git commit -m "resolve Rakefile.rb issues before merge"
+  108  git merge master
+  109  git commit -m "rakefile take 42"
+  110  git merge master
+  111  git hist --all
+  112  git checkout master
+  113  git merge greet
+  114  git hist --all
+  115  git checkout master
+  116  git merge greet
+  117  git add -A
+  118  git commit -m "finally done with rakefile"
+  119  git push
+  120  git push git@github.com:lrgeorge27/CareerDevsday3.git
+  121  git push origin
+  122  git push git@github.com:lrgeorge27/CareerDevsday3.git
+  123  git pull
+  124  cd workspace
+  125  cd Gitimmersion
+  126  cd assignments
+  127  unzip sample files.zip
+  128  unzip
+  129  unzip -Z
+  130  unzip -Z sample files.zip
+  131  c9 sample files.zip
+  132  unzip sample files.zip
+  133  unzip samplefiles.zip
+  134  cd workspace
+  135  cd~
+  136  cd firstworkspace
+  137  unzip files.zip
+  138  unzip sample files.zip
+  139  man unzip
+  140  unzip sample files.zip
+  141  unzip samplefiles.zip
+  142  round1b
+  143  cd round1b
+  144  touch index.html
+  145  c9 index.html
+  146  git staus
+  147  git status
+  148  git init
+  149  git status
+  150  git add -A
+  151  git config core.autocrlf false
+  152  git add -A
+  153  git status
+  154  git commit -m "Create a new file and add at least 3 lines to it."
+  155  mkdir new dir
+  156  cd new dir
+  157  touch wtf.js
+  158  c9 wtf.js
+  159  git add -A
+  160  git status
+  161  git add -A
+  162  git commit -m “Create a second file inside of a new directory and modify any existing file”
+  163  git status
+  164  git add -A
+  165  git commit -m "“Create a second file inside of a new directory and modify any existing file”
+  166  git commit -m “Create a second file inside of a new directory and modify any existing file”
+  167  git commit -m “Create a second file inside of a new directory and modify any existing file”
+  168  git commit -m "Create a second file inside of a new directory and modify any existing file."
+  169  rm -r wtf.js
+  170  git status
+  171  git add -A
+  172  git commit -m "Delete any file."
+  173  git checkout branch1
+  174  git checkout -b branch1
+  175  git status
+  176  touch index.html
+  177  c9 index.html
+  178  git status
+  179  git add -A
+  180  git commit -m "Created new branch and created a new file with three lines in this branch."
+  181  git merge master
+  182  git checkout master
+  183  git merge branch1
+  184  git checkout branch1
+  185  git hist --all
+  186  git checkout master
+  187  cd round1b
+  188  g
+  189  cd Gitimmersion
+  190  git hist --all
+  191  cd hello
+  192  git hist --all
+  193  cd workspace
+  194  cd round1b
+  195  git fetch master
+  196  git reverse push
+  197  git checkout twig
+  198  git merge master
+  199  git hist --all
+  200  git status
+  201  git checkout master
+  202  git merge twig
+  203  git remote add origin
+  204  git remote add origin git@github.com:lrgeorge27/git_tutorial.git
+  205  git push origin git@github.com:lrgeorge27/git_tutorial.git
+  206  git push -u origin
+  207  git remote add origin git@github.com:lrgeorge27/Git_sample_file.git
+  208  git push -u origin master
+  209  git remote add origin git@github.com:lrgeorge27/Git_sample_file.git
+  210  git push -u origin master
+  211  git log
+  212  git status
+  213  c
+  214  cd unix101
+  215  cd rhode\ island
+  216  l
+  217  cd unix101
+  218  cp /vol/ee/ee-info/Teaching/Unix/science.txt
+  219  cp /vol/ee/ee-info/Teaching/Unix/science.txt.
+  220  cp /unix101/science.txt
+  221  cp /unix101/science.txt.
+  222  cp /unix101/science.txt .
+  223  cp /workspace/unix101/science.txt .
+  224  cp /vol/ee/ee-info/Teaching/Unix/science.txt .
+  225  ls unix101
+  226  ls
+  227  cp science.txt
+  228  cp science.txt .
+  229  cp science.txt /backup
+  230  cp science.bak
+  231  cp science.txt science.bak
+  232  ls
+  233  mv science.bak backups/.
+  234  cp science.txt tempfile.txt
+  235  ls 
+  236  rm tempfile.txt
+  237  ls
+  238  mkdir tempstuff
+  239  ls 
+  240  rmdir tempstuff
+  241  history > history.txt
+  242  clear
+  243  cat science.txt
+  244  less science.txt
+  245  clear
+  246  head science.txt
+  247  head -5 science.txt
+  248  clear
+  249  tail science.txt
+  250  less science.txt
+  251  clear
+  252  grep science science.txt
+  253  grep Science science.txt
+  254  grep -i science science.txt
+  255  grep -i 'spinning top' science.txt
+  256  grep -ivc science science.txt
+  257  wc -w science.txt
+  258  wc -l science.txt
+  259  history > history.txt
+  260  cat
+  261  cd unix101
+  262  mkdir download
+  263  cd download
+  264  ls -l
+  265  gunzip units-1.74.tar.gz
+  266  tar -xvf units-1.74.tar
+  267  ls -l
+  268  cd units-1.74
+  269  echo $HOME
+  270  c9 README
+  271  c9 INSTALL
+  272  mkdir ~/units174
+  273  ./configure --prefix=/home/ubuntu/units174
+  274  make
+  275  make check
+  276  clear
+  277  rmdir /download/units-1.74
+  278  cd ..
+  279  rmdir units-1.74
+  280  ls -l
+  281  rm units-1.74.tar
+  282  rmdir units-1.74/
+  283  history > history.txt
+  284  cd ..
+  285  history > history.txt
